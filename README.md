@@ -21,8 +21,11 @@ Framework and all three Microsoft IQ layers.
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Agents League](https://img.shields.io/badge/Agents%20League-Reasoning%20Agents-blueviolet)](https://aka.ms/agentsleague)
 [![Challenge A](https://img.shields.io/badge/Challenge%20A-Enterprise%20Learning%20System-0078D4)](#)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/Vq-X2NIaruo)
 
 **Agents League Hackathon · Reasoning Agents track · Challenge A: Enterprise Learning System**
+
+**[🎥 Watch the 5-Minute Video Demonstration on YouTube](https://youtu.be/Vq-X2NIaruo)**
 
 </div>
 

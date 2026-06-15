@@ -11,38 +11,18 @@ All data is synthetic. See [Synthetic Data](#6-synthetic-data) below.
 
 ## 2. Architecture diagrams
 
+![TalentFabric AI Architecture Diagram](framework_workflow.png)
+
+
 ### 2.1 Execution shape
 
-```
-Input  -->  Sequential Student Readiness Subworkflow  -->  Assess & Aggregate
-            (run once per learner, fan-out)               team readiness results
-                                                            (fan-in, Manager Insights)
-```
+![TalentFabric AI Execution Shape](execution_shape.png)
+
 
 ### 2.2 Agent roster and IQ layer mapping
 
-```
-                 User                                  Manager
-                  |                                       |
-                  v                                       v
-        +-------------------------------------------------------------+
-        |              Enterprise Learning & Optimization System       |
-        |  --------------------- Multi-Agent Orchestration ----------- |
-        |  [Learning Path  ]->[Study Plan   ]->[Engagement]->[Assessment]->[Manager Insights]
-        |  [Curator        ]  [Generator    ]  [Agent     ]  [Agent     ]  [Agent           ]
-        |  Fetch Resources    Optimize Plans   Schedule       Generate &    Team Analytics
-        |                                      Reminders      Evaluate
-        +----------------------^-------^------------^-------------^----------------^-------+
-                                |       |            |             |                |
-                          +-----+-------+------------+-------------+----------------+-----+
-                          |   Foundry IQ        Fabric IQ        Work IQ                   |
-                          |  (Knowledge        (Performance      (Workplace               |
-                          |   Retrieval,        Analytics,        Signals,                |
-                          |   Training Docs)    Learner Data)     Calendar Data)          |
-                          +-----------------------------------------------------------------+
-                                                     |
-                                        Outputs: Assessments, Reports
-```
+![TalentFabric AI Agent Roster & IQ Mapping](roster_iq_mapping.png)
+
 
 This repository implements the diagram directly:
 

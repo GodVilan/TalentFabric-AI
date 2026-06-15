@@ -16,7 +16,7 @@ All data is synthetic. See [Synthetic Data](#6-synthetic-data) below.
 
 ### 2.1 Execution shape
 
-![TalentFabric AI Execution Shape](execution_shape.png)
+![TalentFabric AI Execution Shape](execution_shape.jpeg)
 
 
 ### 2.2 Agent roster and IQ layer mapping

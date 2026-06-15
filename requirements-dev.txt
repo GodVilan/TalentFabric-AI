@@ -1,0 +1,7 @@
+# Test-only dependencies (not required to run the system).
+#   pip install -r requirements-dev.txt
+#
+# The default test suite is network-free and deterministic (mocked MCP
+# transport). Live tests against learn.microsoft.com are opt-in: `pytest -m live`.
+-r requirements.txt
+pytest

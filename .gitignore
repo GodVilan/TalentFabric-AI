@@ -1,0 +1,51 @@
+# ==============================================================================
+# TalentFabric AI - Git Ignore
+# ==============================================================================
+
+# Virtual Environments & Dependencies
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment Variables & Secrets (NEVER COMMIT)
+.env
+.env.local
+.envrc
+.streamlit/secrets.toml
+
+# OS & IDE Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Testing & Linting Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# Project-Specific Generated Outputs & Evaluation Data
+run_output.json
+run_output_agent_framework.json
+eval_results.json
+mlflow.db
+mlruns/
+
+# Learn MCP Disk Cache (Keep directory structure, ignore cache contents)
+.cache/*
+!.cache/learn_mcp/
+.cache/learn_mcp/*
+!.cache/learn_mcp/.gitkeep

@@ -1,0 +1,71 @@
+{
+  "entity_types": ["Learner", "Role", "Certification", "Skill", "Team"],
+  "relationships": [
+    "Role -> requires -> Certification",
+    "Certification -> requires_skill -> Skill",
+    "Certification -> has_pass_threshold -> ReadinessScore",
+    "Certification -> recommends_hours -> RecommendedHours",
+    "Certification -> next_step -> Certification",
+    "Learner -> belongs_to -> Team",
+    "Learner -> targets -> Certification"
+  ],
+  "certifications": {
+    "AZ-204": {
+      "name": "Developing Solutions for Microsoft Azure",
+      "role_alignment": "Cloud Engineer",
+      "skills": ["API Development", "Azure Functions", "Storage", "Authentication"],
+      "recommended_hours": 20,
+      "prerequisites": [],
+      "pass_threshold": 75,
+      "next_certification": "AZ-305"
+    },
+    "AZ-305": {
+      "name": "Designing Microsoft Azure Infrastructure Solutions",
+      "role_alignment": "Cloud Engineer",
+      "skills": ["Architecture Design", "Governance", "Networking", "Business Continuity"],
+      "recommended_hours": 25,
+      "prerequisites": ["AZ-204"],
+      "pass_threshold": 75,
+      "next_certification": null
+    },
+    "AZ-400": {
+      "name": "Designing and Implementing Microsoft DevOps Solutions",
+      "role_alignment": "DevOps Engineer",
+      "skills": ["CI/CD", "Monitoring", "GitHub Actions", "Release Management"],
+      "recommended_hours": 25,
+      "prerequisites": [],
+      "pass_threshold": 75,
+      "next_certification": null
+    },
+    "DP-203": {
+      "name": "Data Engineering on Microsoft Azure",
+      "role_alignment": "Data Engineer",
+      "skills": ["Data Pipelines", "Data Storage Design", "Stream Processing", "Data Security"],
+      "recommended_hours": 22,
+      "prerequisites": [],
+      "pass_threshold": 75,
+      "next_certification": null
+    },
+    "AZ-500": {
+      "name": "Microsoft Azure Security Technologies",
+      "role_alignment": "Security Engineer",
+      "skills": ["Identity Management", "Platform Protection", "Security Operations", "Data and Application Security"],
+      "recommended_hours": 24,
+      "prerequisites": [],
+      "pass_threshold": 75,
+      "next_certification": null
+    }
+  },
+  "roles": {
+    "Cloud Engineer":    {"primary_certification": "AZ-204", "secondary_certification": "AZ-305"},
+    "DevOps Engineer":   {"primary_certification": "AZ-400", "secondary_certification": null},
+    "Data Engineer":     {"primary_certification": "DP-203", "secondary_certification": null},
+    "Security Engineer": {"primary_certification": "AZ-500", "secondary_certification": null}
+  },
+  "study_pattern": {
+    "daily_focus_minutes_range": [60, 120],
+    "weekly_assessment_checkpoint": true,
+    "target_practice_score_before_exam": 75,
+    "min_hours_completion_ratio_for_ready": 0.8
+  }
+}

@@ -1,0 +1,23 @@
+# Core (no external API keys required)
+rank_bm25
+scikit-learn
+numpy
+pandas
+streamlit
+plotly
+
+# Optional: evaluation / telemetry
+mlflow
+
+# Optional: enables AzureOpenAIChatClient (Microsoft Foundry / Azure OpenAI backed narration)
+openai
+python-dotenv
+
+# Microsoft Agent Framework -- required for src/agent_framework_workflow.py
+# Tested against agent-framework-core 1.8.1 / agent-framework-openai 1.8.1
+agent-framework
+agent-framework-openai
+
+# Microsoft Learn MCP integration -- required for src/iq_layers/learn_mcp.py
+# (direct dependency; declared explicitly rather than relied on transitively)
+mcp

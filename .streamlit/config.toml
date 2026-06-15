@@ -1,0 +1,17 @@
+# TalentFabric AI — Streamlit native-widget theme (Fluent 2 / Microsoft Learn).
+# The authored design system (tokens, components, fonts) lives in app/ui/theme.py;
+# this block only colours Streamlit's own widgets so they match.
+
+[theme]
+primaryColor = "#0078D4"            # --color-accent
+backgroundColor = "#FFFFFF"         # --surface (content area)
+secondaryBackgroundColor = "#F3F2F1"  # --app-bg
+textColor = "#323130"               # --text-1
+font = "\"Segoe UI Variable\", \"Segoe UI\", Inter, system-ui, sans-serif"
+base = "light"
+
+[server]
+# Keep the demo self-contained; no usage stats, no CDN dependency.
+headless = true
+[browser]
+gatherUsageStats = false

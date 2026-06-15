@@ -1,0 +1,14 @@
+[
+  {"learner_id": "L-1001", "employee_id": "EMP-001", "team_id": "TEAM-A", "role": "Cloud Engineer",   "target_certification": "AZ-204", "practice_score_avg": 84, "hours_studied": 18, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1002", "employee_id": "EMP-002", "team_id": "TEAM-A", "role": "DevOps Engineer",  "target_certification": "AZ-400", "practice_score_avg": 86, "hours_studied": 23, "exam_outcome": "Pass"},
+  {"learner_id": "L-1003", "employee_id": "EMP-003", "team_id": "TEAM-A", "role": "Data Engineer",    "target_certification": "DP-203", "practice_score_avg": 79, "hours_studied": 20, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1004", "employee_id": "EMP-004", "team_id": "TEAM-A", "role": "Security Engineer","target_certification": "AZ-500", "practice_score_avg": 66, "hours_studied": 12, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1005", "employee_id": "EMP-005", "team_id": "TEAM-B", "role": "Cloud Engineer",   "target_certification": "AZ-204", "practice_score_avg": 78, "hours_studied": 14, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1006", "employee_id": "EMP-006", "team_id": "TEAM-B", "role": "DevOps Engineer",  "target_certification": "AZ-400", "practice_score_avg": 81, "hours_studied": 21, "exam_outcome": "Pass"},
+  {"learner_id": "L-1007", "employee_id": "EMP-007", "team_id": "TEAM-B", "role": "Data Engineer",    "target_certification": "DP-203", "practice_score_avg": 72, "hours_studied": 14, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1008", "employee_id": "EMP-008", "team_id": "TEAM-B", "role": "Security Engineer","target_certification": "AZ-500", "practice_score_avg": 63, "hours_studied": 10, "exam_outcome": "Fail"},
+  {"learner_id": "L-1009", "employee_id": "EMP-009", "team_id": "TEAM-C", "role": "Cloud Engineer",   "target_certification": "AZ-204", "practice_score_avg": 58, "hours_studied": 8,  "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1010", "employee_id": "EMP-010", "team_id": "TEAM-C", "role": "DevOps Engineer",  "target_certification": "AZ-400", "practice_score_avg": 64, "hours_studied": 9,  "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1011", "employee_id": "EMP-011", "team_id": "TEAM-C", "role": "Data Engineer",    "target_certification": "DP-203", "practice_score_avg": 68, "hours_studied": 11, "exam_outcome": "Not Attempted"},
+  {"learner_id": "L-1012", "employee_id": "EMP-012", "team_id": "TEAM-C", "role": "Security Engineer","target_certification": "AZ-500", "practice_score_avg": 61, "hours_studied": 10, "exam_outcome": "Fail"}
+]

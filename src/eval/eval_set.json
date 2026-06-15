@@ -1,0 +1,14 @@
+[
+  {"learner_id": "L-1001", "expected_readiness_status": "Ready",     "expected_risk_level": "Low"},
+  {"learner_id": "L-1002", "expected_readiness_status": "Ready",     "expected_risk_level": "Low"},
+  {"learner_id": "L-1003", "expected_readiness_status": "Ready",     "expected_risk_level": "Low"},
+  {"learner_id": "L-1004", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"},
+  {"learner_id": "L-1005", "expected_readiness_status": "Ready",     "expected_risk_level": "Low"},
+  {"learner_id": "L-1006", "expected_readiness_status": "Ready",     "expected_risk_level": "Low"},
+  {"learner_id": "L-1007", "expected_readiness_status": "Not Ready", "expected_risk_level": "Medium"},
+  {"learner_id": "L-1008", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"},
+  {"learner_id": "L-1009", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"},
+  {"learner_id": "L-1010", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"},
+  {"learner_id": "L-1011", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"},
+  {"learner_id": "L-1012", "expected_readiness_status": "Not Ready", "expected_risk_level": "High"}
+]
